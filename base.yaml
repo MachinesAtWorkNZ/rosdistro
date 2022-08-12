@@ -1,0 +1,10 @@
+iperf3:
+  ubuntu: [iperf3]
+  
+arping:
+  ubuntu: [arping]
+  
+yq:
+  ubuntu:
+    snap:
+      packages: [yq]

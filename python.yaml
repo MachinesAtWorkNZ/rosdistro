@@ -3,3 +3,82 @@ pydantic:
     pip:
       packages: [pydantic]
 
+python-couchdb:
+  ubuntu:
+    pip:
+      packages: [couchdb]
+
+pillow-avif-plugin:
+  ubuntu:
+    pip:
+      packages: [pillow-avif-plugin]
+
+aiortc:
+  ubuntu:
+    pip:
+      packages: [aiortc]
+
+aiohttp_cors:
+  ubuntu:
+    pip:
+      packages: [aiohttp_cors]
+
+websockets:
+  ubuntu:
+    pip:
+      packages: [websockets]
+      
+paho-mqtt:
+  ubuntu:
+    pip:
+      packages: [paho-mqtt]
+
+demjson:
+  ubuntu:
+    pip:
+      packages: [demjson]
+
+psycopg2:
+  ubuntu:
+    pip:
+      packages: [psycopg2]
+
+ibmcloudant:
+  ubuntu:
+    pip:
+      packages: [ibmcloudant]
+
+uvicorn:
+  ubuntu:
+    pip:
+      packages: [uvicorn]
+
+fastapi:
+  ubuntu:
+    pip:
+      packages: [fastapi]
+      
+utm:
+  ubuntu:
+    pip:
+      packages: [utm]
+
+shortuuid:
+  ubuntu:
+    pip:
+      packages: [shortuuid]
+
+python-iperf3:
+  ubuntu:
+    pip:
+      packages: [iperf3]
+
+pyserial:
+  ubuntu:
+    pip:
+      packages: [pyserial]
+
+testresources:
+  ubuntu:
+    pip:
+      packages: [testresources]
