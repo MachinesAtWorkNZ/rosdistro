@@ -82,3 +82,8 @@ testresources:
   ubuntu:
     pip:
       packages: [testresources]
+
+geopy:
+  ubuntu:
+    pip:
+      packages: [geopy]
