@@ -87,3 +87,9 @@ geopy:
   ubuntu:
     pip:
       packages: [geopy]
+
+fastapi_utils:
+  ubuntu:
+    pip:
+      packages: [fastapi_utils]
+
