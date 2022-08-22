@@ -88,8 +88,8 @@ geopy:
     pip:
       packages: [geopy]
 
-fastapi_utils:
+fastapi-utils:
   ubuntu:
     pip:
-      packages: [fastapi_utils]
+      packages: [fastapi-utils]
 
