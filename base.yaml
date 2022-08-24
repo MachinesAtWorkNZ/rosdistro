@@ -4,7 +4,7 @@ arping:
 iperf3:
   ubuntu: [iperf3]
 
-libpqxx-dev:
+pqxx:
   ubuntu: [libpqxx-dev]
   
 screen:
