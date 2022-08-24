@@ -4,3 +4,5 @@ iperf3:
 arping:
   ubuntu: [arping]
 
+libpqxx-dev:
+  ubuntu: [libpqxx-dev]
