@@ -9,3 +9,6 @@ libpqxx-dev:
   
 screen:
   ubuntu: [screen]
+
+cimg:
+  ubuntu: [cimg-dev]
