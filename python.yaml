@@ -93,3 +93,7 @@ fastapi-utils:
     pip:
       packages: [fastapi-utils]
 
+anyascii:
+  ubuntu:
+    pip:
+      packages: [anyascii]
