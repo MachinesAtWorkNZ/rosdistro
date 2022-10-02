@@ -103,3 +103,12 @@ anyascii:
     pip:
       packages: [simplification]
 
+typer-cli:
+  ubuntu:
+    pip:
+      packages: [typer-cli]
+      
+rich:
+  ubuntu:
+    pip:
+      packages: [rich]
