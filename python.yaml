@@ -98,7 +98,7 @@ anyascii:
     pip:
       packages: [anyascii]
       
-anyascii:
+simplification:
   ubuntu:
     pip:
       packages: [simplification]
