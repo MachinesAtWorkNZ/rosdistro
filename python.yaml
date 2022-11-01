@@ -112,3 +112,8 @@ rich:
   ubuntu:
     pip:
       packages: [rich]
+      
+smbus2:
+  ubuntu:
+    pip:
+      packages: [smbus2]
