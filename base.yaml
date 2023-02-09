@@ -12,3 +12,10 @@ screen:
 
 cimg:
   ubuntu: [cimg-dev]
+
+mpg321:
+  ubuntu: [mpg321]
+
+festival:
+  ubuntu: [festival]
+  
