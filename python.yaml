@@ -117,3 +117,9 @@ smbus2:
   ubuntu:
     pip:
       packages: [smbus2]
+      
+gtts:
+  ubuntu:
+    pip:
+      packages: [gtts]
+
