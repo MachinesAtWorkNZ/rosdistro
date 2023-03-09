@@ -123,3 +123,7 @@ gtts:
     pip:
       packages: [gtts]
 
+tones:
+  ubuntu:
+    pip:
+      packages: [tones]
