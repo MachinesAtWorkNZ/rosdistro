@@ -127,3 +127,8 @@ tones:
   ubuntu:
     pip:
       packages: [tones]
+      
+sabctools:
+  ubuntu:
+    pip:
+      packages: [sabctools]
