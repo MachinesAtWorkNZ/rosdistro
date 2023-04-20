@@ -137,3 +137,8 @@ msgpack:
   ubuntu:
     pip:
       packages: [msgpack]
+
+sse-starlette:
+  ubuntu:
+    pip:
+      packages: [sse-starlette]
