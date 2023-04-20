@@ -132,3 +132,8 @@ sabctools:
   ubuntu:
     pip:
       packages: [sabctools]
+
+msgpack:
+  ubuntu:
+    pip:
+      packages: [msgpack]
