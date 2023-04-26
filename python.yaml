@@ -142,3 +142,8 @@ sse-starlette:
   ubuntu:
     pip:
       packages: [sse-starlette]
+
+gdal2tiles:
+  ubuntu:
+    pip:
+      packages: [gdal2tiles]
