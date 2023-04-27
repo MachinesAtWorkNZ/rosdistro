@@ -147,3 +147,8 @@ gdal2tiles:
   ubuntu:
     pip:
       packages: [gdal2tiles]
+
+python-requests:
+  ubuntu:
+    pip:
+      packages: [requests]
