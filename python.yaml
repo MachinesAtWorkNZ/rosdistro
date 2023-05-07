@@ -152,3 +152,8 @@ python-requests:
   ubuntu:
     pip:
       packages: [requests]
+
+simple-pid:
+  ubuntu:
+    pip:
+      packages: [simple-pid]
