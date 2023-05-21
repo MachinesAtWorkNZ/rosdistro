@@ -18,4 +18,6 @@ mpg321:
 
 festival:
   ubuntu: [festival]
-  
+
+rtklib:
+  ubuntu: [rtklib]
