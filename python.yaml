@@ -157,3 +157,8 @@ simple-pid:
   ubuntu:
     pip:
       packages: [simple-pid]
+
+jsonschema:
+  ubuntu:
+    pip:
+      packages: [jsonschema]
