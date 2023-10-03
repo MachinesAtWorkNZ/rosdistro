@@ -21,3 +21,6 @@ festival:
 
 rtklib:
   ubuntu: [rtklib]
+
+rclone:
+  ubuntu: [rclone]
