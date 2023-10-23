@@ -167,3 +167,9 @@ uvicorn:
   ubuntu:
     pip:
       packages: [uvicorn]
+
+sqlalchemy:
+  ubuntu:
+    pip:
+      packages: [sqlalchemy]
+
