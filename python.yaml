@@ -171,5 +171,19 @@ uvicorn:
 sqlalchemy:
   ubuntu:
     pip:
-      packages: [SQLAlchemy]
+      packages: [sqlalchemy]
 
+geojson-pydantic:
+  ubuntu:
+    pip:
+      packages: [geojson-pydantic]
+
+geoalchemy2:
+  ubuntu:
+    pip:
+      packages: [geoalchemy2]
+
+typing-extensions:
+  ubuntu:
+    pip:
+      packages: [typing-extensions]
