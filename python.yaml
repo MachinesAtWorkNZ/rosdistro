@@ -171,5 +171,5 @@ uvicorn:
 sqlalchemy:
   ubuntu:
     pip:
-      packages: [sqlalchemy]
+      packages: [SQLAlchemy]
 
