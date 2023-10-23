@@ -162,3 +162,8 @@ jsonschema:
   ubuntu:
     pip:
       packages: [jsonschema]
+
+uvicorn:
+  ubuntu:
+    pip:
+      packages: [uvicorn]
