@@ -187,3 +187,8 @@ typing-extensions:
   ubuntu:
     pip:
       packages: [typing-extensions]
+
+fastapi-restful:
+  ubuntu:
+    pip:
+      packages: [fastapi-restful]
