@@ -192,3 +192,8 @@ fastapi-restful:
   ubuntu:
     pip:
       packages: [fastapi-restful]
+
+numpy:
+  ubuntu:
+    pip:
+      packages: [numpy]
