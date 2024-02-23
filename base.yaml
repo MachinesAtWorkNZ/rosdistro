@@ -24,3 +24,9 @@ rtklib:
 
 rclone:
   ubuntu: [rclone]
+
+librealsense2:
+  ubuntu: [] # install dkms
+
+realsense2_camera:
+  ubuntu: [] # build from source
