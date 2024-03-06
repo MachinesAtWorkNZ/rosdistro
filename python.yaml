@@ -188,6 +188,11 @@ typing-extensions:
     pip:
       packages: [typing-extensions]
 
+typing-inspect:
+  ubuntu:
+    pip:
+      packages: [typing-inspect]
+
 fastapi-restful:
   ubuntu:
     pip:
