@@ -202,3 +202,8 @@ numpy:
   ubuntu:
     pip:
       packages: [numpy]
+
+sabctools:
+  ubuntu:
+    pip:
+      packages: [sabctools]
