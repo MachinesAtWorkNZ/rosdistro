@@ -213,3 +213,7 @@ PyYAML:
     pip:
       packages: [PyYAML]
 
+inject:
+  ubuntu:
+    pip:
+      packages: [inject<5.0] # Restricted by mqtt_bridge
