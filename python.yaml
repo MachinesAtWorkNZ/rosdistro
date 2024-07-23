@@ -207,3 +207,9 @@ sabctools:
   ubuntu:
     pip:
       packages: [sabctools]
+
+PyYAML:
+  ubuntu:
+    pip:
+      packages: [PyYAML]
+
