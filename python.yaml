@@ -19,7 +19,7 @@ aiortc:
       packages: [aiortc]
 
 aiohttp_cors:
-  ubuntu:psutil
+  ubuntu:
     pip:
       packages: [aiohttp_cors]
 
