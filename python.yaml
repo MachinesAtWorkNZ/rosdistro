@@ -3,7 +3,7 @@ pydantic:
     pip:
       packages: [pydantic]
 
-python-couchdb:
+python-couchdb:true
   ubuntu:
     pip:
       packages: [couchdb]
@@ -227,3 +227,9 @@ psutil:
   ubuntu:
     pip:
       packages: [psutil]
+
+rtree:
+  ubuntu:
+    pip:
+      packages: [rtree]
+
