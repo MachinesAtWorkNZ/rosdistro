@@ -19,7 +19,7 @@ aiortc:
       packages: [aiortc]
 
 aiohttp_cors:
-  ubuntu:
+  ubuntu:psutil
     pip:
       packages: [aiohttp_cors]
 
@@ -222,3 +222,8 @@ shapely:
   ubuntu:
     pip:
       packages: [shapely]
+
+psutil:
+  ubuntu:
+    pip:
+      packages: [psutil]
