@@ -3,7 +3,7 @@ pydantic:
     pip:
       packages: [pydantic]
 
-python-couchdb:true
+python-couchdb:
   ubuntu:
     pip:
       packages: [couchdb]
