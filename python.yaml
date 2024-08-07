@@ -31,7 +31,7 @@ websockets:
 paho-mqtt:
   ubuntu:
     pip:
-      packages: [paho-mqtt<2.0.0]
+      packages: [] # Restricted by `requests` conflict to paho-mqtt<2.0.0. Install manually.
 
 demjson:
   ubuntu:
@@ -216,7 +216,7 @@ PyYAML:
 inject:
   ubuntu:
     pip:
-      packages: [inject<5.0] # Restricted by mqtt_bridge
+      packages: [] # Restricted by mqtt_bridge to inject<5.0. Install manually.
 
 shapely:
   ubuntu:
