@@ -30,3 +30,6 @@ librealsense2:
 
 realsense2_camera:
   ubuntu: [] # build from source
+
+pybind11_catkin:
+  ubuntu: [ros-noetic-pybind11-catkin]
