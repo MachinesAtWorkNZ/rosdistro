@@ -35,17 +35,17 @@ pybind11_catkin:
   ubuntu: [ros-noetic-pybind11-catkin]
 
 rtabmap_ros: # Derived from ros/rosdistro. Drop rtabmap_examples which installs realsense2 dependencies.
-  ubuntu: [ros-${ROS_DISTRO}-rtabmap-conversions,
-           ros-${ROS_DISTRO}-rtabmap-costmap-plugins,
-           ros-${ROS_DISTRO}-rtabmap-demos,
-           ros-${ROS_DISTRO}-rtabmap-launch,
-           ros-${ROS_DISTRO}-rtabmap-legacy,
-           ros-${ROS_DISTRO}-rtabmap-msgs,
-           ros-${ROS_DISTRO}-rtabmap-odom,
-           ros-${ROS_DISTRO}-rtabmap-python,
-           ros-${ROS_DISTRO}-rtabmap-ros,
-           ros-${ROS_DISTRO}-rtabmap-rviz-plugins,
-           ros-${ROS_DISTRO}-rtabmap-slam,
-           ros-${ROS_DISTRO}-rtabmap-sync,
-           ros-${ROS_DISTRO}-rtabmap-util,
-           ros-${ROS_DISTRO}-rtabmap-viz]
+  ubuntu: [ros-noetic-rtabmap-conversions,
+           ros-noetic-rtabmap-costmap-plugins,
+           ros-noetic-rtabmap-demos,
+           ros-noetic-rtabmap-launch,
+           ros-noetic-rtabmap-legacy,
+           ros-noetic-rtabmap-msgs,
+           ros-noetic-rtabmap-odom,
+           ros-noetic-rtabmap-python,
+           ros-noetic-rtabmap-ros,
+           ros-noetic-rtabmap-rviz-plugins,
+           ros-noetic-rtabmap-slam,
+           ros-noetic-rtabmap-sync,
+           ros-noetic-rtabmap-util,
+           ros-noetic-rtabmap-viz]
