@@ -34,19 +34,18 @@ realsense2_camera:
 pybind11_catkin:
   ubuntu: [ros-noetic-pybind11-catkin]
 
-rtabmap_ros: # Dervied from ros/rosdistro. Drop rtabmap_examples which installs realsense2 dependencies.
-  ubuntu:
-    - ros-${ROS_DISTRO}-rtabmap-conversions
-    - ros-${ROS_DISTRO}-rtabmap-costmap-plugins
-    - ros-${ROS_DISTRO}-rtabmap-demos
-    - ros-${ROS_DISTRO}-rtabmap-launch
-    - ros-${ROS_DISTRO}-rtabmap-legacy
-    - ros-${ROS_DISTRO}-rtabmap-msgs
-    - ros-${ROS_DISTRO}-rtabmap-odom
-    - ros-${ROS_DISTRO}-rtabmap-python
-    - ros-${ROS_DISTRO}-rtabmap-ros
-    - ros-${ROS_DISTRO}-rtabmap-rviz-plugins
-    - ros-${ROS_DISTRO}-rtabmap-slam
-    - ros-${ROS_DISTRO}-rtabmap-sync
-    - ros-${ROS_DISTRO}-rtabmap-util
-    - ros-${ROS_DISTRO}-rtabmap-viz
+rtabmap_ros: # Derived from ros/rosdistro. Drop rtabmap_examples which installs realsense2 dependencies.
+  ubuntu: [ros-${ROS_DISTRO}-rtabmap-conversions,
+           ros-${ROS_DISTRO}-rtabmap-costmap-plugins,
+           ros-${ROS_DISTRO}-rtabmap-demos,
+           ros-${ROS_DISTRO}-rtabmap-launch,
+           ros-${ROS_DISTRO}-rtabmap-legacy,
+           ros-${ROS_DISTRO}-rtabmap-msgs,
+           ros-${ROS_DISTRO}-rtabmap-odom,
+           ros-${ROS_DISTRO}-rtabmap-python,
+           ros-${ROS_DISTRO}-rtabmap-ros,
+           ros-${ROS_DISTRO}-rtabmap-rviz-plugins,
+           ros-${ROS_DISTRO}-rtabmap-slam,
+           ros-${ROS_DISTRO}-rtabmap-sync,
+           ros-${ROS_DISTRO}-rtabmap-util,
+           ros-${ROS_DISTRO}-rtabmap-viz]
