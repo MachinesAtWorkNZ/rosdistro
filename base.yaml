@@ -35,7 +35,7 @@ pybind11_catkin:
   ubuntu: [ros-noetic-pybind11-catkin]
 
 rtabmap_ros: # Dervied from ros/rosdistro. Drop rtabmap_examples which installs realsense2 dependencies.
-  ros_distro:
+  ubuntu:
     - ros-${ROS_DISTRO}-rtabmap-conversions
     - ros-${ROS_DISTRO}-rtabmap-costmap-plugins
     - ros-${ROS_DISTRO}-rtabmap-demos
