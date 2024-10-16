@@ -33,3 +33,34 @@ realsense2_camera:
 
 pybind11_catkin:
   ubuntu: [ros-noetic-pybind11-catkin]
+
+rtabmap_ros: # Dervied from ros/rosdistro. Drop rtabmap_examples which installs realsense2 dependencies.
+  doc:
+    type: git
+    url: https://github.com/introlab/rtabmap_ros.git
+    version: noetic-devel
+  release:
+    packages:
+    - rtabmap_conversions
+    - rtabmap_costmap_plugins
+    - rtabmap_demos
+    - rtabmap_launch
+    - rtabmap_legacy
+    - rtabmap_msgs
+    - rtabmap_odom
+    - rtabmap_python
+    - rtabmap_ros
+    - rtabmap_rviz_plugins
+    - rtabmap_slam
+    - rtabmap_sync
+    - rtabmap_util
+    - rtabmap_viz
+    tags:
+      release: release/noetic/{package}/{version}
+    url: https://github.com/introlab/rtabmap_ros-release.git
+    version: 0.21.5-1
+  source:
+    type: git
+    url: https://github.com/introlab/rtabmap_ros.git
+    version: noetic-devel
+  status: maintained
