@@ -233,3 +233,7 @@ rtree:
     pip:
       packages: [rtree]
 
+pyubx2:
+  ubuntu:
+    pip:
+      packages: [pyubx2]
