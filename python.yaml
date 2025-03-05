@@ -247,3 +247,8 @@ pyubx2:
   ubuntu:
     pip:
       packages: [pyubx2]
+
+scipy:
+  ubuntu:
+    pip:
+      packages: [scipy]
