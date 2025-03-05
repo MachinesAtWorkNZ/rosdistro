@@ -38,6 +38,16 @@ demjson:
     pip:
       packages: [demjson]
 
+psycopg:
+  ubuntu:
+    pip:
+      packages: [psycopg]
+
+psycopg_pool:
+  ubuntu:
+    pip:
+      packages: [psycopg_pool]
+
 psycopg2:
   ubuntu:
     pip:
