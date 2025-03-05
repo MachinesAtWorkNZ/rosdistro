@@ -49,3 +49,6 @@ rtabmap_ros: # Derived from ros/rosdistro. Drop rtabmap_examples which installs 
            ros-noetic-rtabmap-sync,
            ros-noetic-rtabmap-util,
            ros-noetic-rtabmap-viz]
+
+iproute2:
+  ubuntu: [iproute2]
