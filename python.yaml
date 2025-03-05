@@ -252,3 +252,13 @@ scipy:
   ubuntu:
     pip:
       packages: [scipy]
+
+onnxruntime:
+  ubuntu:
+    pip:
+      packages: [onnxruntime]
+
+onnxruntime-gpu:
+  ubuntu:
+    pip:
+      packages: [onnxruntime-gpu]
