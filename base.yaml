@@ -52,3 +52,6 @@ rtabmap_ros: # Derived from ros/rosdistro. Drop rtabmap_examples which installs 
 
 iproute2:
   ubuntu: [iproute2]
+
+linux-tools-generic:
+  ubuntu: [linux-tools-generic]
