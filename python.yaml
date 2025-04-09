@@ -262,3 +262,8 @@ onnxruntime-gpu:
   ubuntu:
     pip:
       packages: [onnxruntime-gpu]
+
+pyasn1-modules:
+  ubuntu:
+    pip:
+      packages: [pyasn1-modules]
