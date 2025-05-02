@@ -267,3 +267,8 @@ pyasn1-modules:
   ubuntu:
     pip:
       packages: [pyasn1-modules]
+
+pyfilter:
+  ubuntu:
+    pip:
+      packages: [pyfilter]
