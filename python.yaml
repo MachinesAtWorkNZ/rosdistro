@@ -272,3 +272,8 @@ pyfilter:
   ubuntu:
     pip:
       packages: [pyfilter]
+
+sqlmodel:
+  ubuntu:
+    pip:
+      packages: [sqlmodel]
