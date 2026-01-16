@@ -287,3 +287,8 @@ scikit-image:
   ubuntu:
     pip:
       packages: [scikit-image]
+
+rasterio:
+  ubuntu:
+    pip:
+      packages: [rasterio]
