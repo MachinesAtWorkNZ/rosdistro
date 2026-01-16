@@ -283,3 +283,7 @@ aioboto3:
     pip:
       packages: [aioboto3]
 
+scikit-image:
+  ubuntu:
+    pip:
+      packages: [scikit-image]
