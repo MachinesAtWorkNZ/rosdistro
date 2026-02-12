@@ -292,3 +292,8 @@ rasterio:
   ubuntu:
     pip:
       packages: [rasterio]
+
+colorlog:
+  ubuntu:
+    pip:
+      packages: [colorlog]
