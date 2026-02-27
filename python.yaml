@@ -297,3 +297,9 @@ colorlog:
   ubuntu:
     pip:
       packages: [colorlog]
+
+python-casadi:
+  ubuntu:
+    pip:
+      packages: [casadi]
+
