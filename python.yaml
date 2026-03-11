@@ -307,3 +307,8 @@ python-jose:
   ubuntu:
     pip:
       packages: [python-jose]
+
+python-alembic:
+  ubuntu:
+    pip:
+      packages: [alembic]
