@@ -303,3 +303,7 @@ python-casadi:
     pip:
       packages: [casadi]
 
+python-jose:
+  ubuntu:
+    pip:
+      packages: [python-jose]
