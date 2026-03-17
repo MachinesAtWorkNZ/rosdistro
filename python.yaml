@@ -317,3 +317,9 @@ python-PyJWT:
   ubuntu:
     pip:
       packages: [PyJWT]
+
+python3-transitions:
+  ubuntu:
+    pip:
+      packages: [transitions]
+
