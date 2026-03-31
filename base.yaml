@@ -58,3 +58,6 @@ iproute2:
 
 linux-tools-generic:
   ubuntu: [linux-tools-generic]
+
+zlib1g-dev:
+  ubuntu: [zlib1g-dev]
