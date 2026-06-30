@@ -323,3 +323,23 @@ python3-transitions:
     pip:
       packages: [transitions]
 
+pyproj:
+  ubuntu:
+    pip:
+      packages: [pyproj]
+
+mercantile:
+  ubuntu:
+    pip:
+      packages: [mercantile]
+
+scikit-learn:
+  ubuntu:
+    pip:
+      packages: [scikit-learn]
+
+skan:
+  ubuntu:
+    pip:
+      packages: [skan]
+
