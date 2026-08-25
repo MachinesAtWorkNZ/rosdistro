@@ -61,3 +61,6 @@ linux-tools-generic:
 
 zlib1g-dev:
   ubuntu: [zlib1g-dev]
+
+libgeos-dev:
+  ubuntu: [libgeos-dev]
